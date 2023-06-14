@@ -1,4 +1,5 @@
 ## Youtube api and vimeo api
+- add overlay div to make video clickable through a button
 ```
    <style>
    .overlay{
@@ -12,10 +13,7 @@
 ```
 ```
  <script>
-// lic inner video
-
 // https://developers.google.com/youtube/iframe_api_reference
-
 // global variable for the player
 var player;
 
@@ -151,6 +149,8 @@ function onPlayerReady(event) {
     </script>
  
   ```
+  
+  
                     <div class="video" id="video">
                         <div class="embed-container">
                             <script>
